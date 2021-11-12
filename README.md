@@ -25,4 +25,4 @@ Markdown Preview
 #### 그 외
 
 - [git flow](https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/)
--
+- [sem ver](https://blog.sonim1.com/243)
