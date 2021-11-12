@@ -1,46 +1,23 @@
-# Getting Started with Create React App
+## 첫 리액트 페이지
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 목적
 
-## Available Scripts
+처음으로 React.js 사용하면서 TS와 기본적인 HTML 화면 구성, CSS를 익힘
 
-In the project directory, you can run:
+### 목표
 
-### `yarn start`
+사이드바 메뉴를 통해 스크롤 이동하는 웹사이트 작성
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Markdown Preview
 
-### `yarn test`
+    ctrl + k, v
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+### 사용 라이브러리
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- atomic design
+  - [Effective Atomic Design | kciter.so](https://kciter.so/posts/effective-atomic-design)
+  - [아토믹디자인 for React. 리액트의 재사용가능한 컴포넌트를 위한 아키텍쳐 | by walter | Medium](https://medium.com/@inthewalter/atomic-design-for-react-514660f93ba)
