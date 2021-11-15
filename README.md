@@ -6,7 +6,7 @@
 
 ### 목표
 
-사이드바 메뉴를 통해 스크롤 이동하는 웹사이트 작성
+    세멘틱 태그를 사용해서 브라우저가 구조를 인식할 수 있는 웹 페이지 첫 화면 만들기
 
 ---
 
@@ -27,3 +27,10 @@ Markdown Preview
 - [git flow](https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/)
 - [sem ver](https://blog.sonim1.com/243)
 - [Udacity Style](https://da-nyee.github.io/posts/git-git-commit-message-convention/)
+
+---
+
+### 고생한 부분
+
+- Github 계정을 바꾸면서 git 계정과 새 github 계정을 새로 연동하는 것을 잊어서 지연
+  - git 계정도 새로 만들어서 연동해서 해결
