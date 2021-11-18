@@ -1,10 +1,22 @@
 .container {
-	display: block;
-	height: 100vh;
-	background-color: aquamarine;
-	border: 1px solid orange;
+  display: block;
+  height: 100vh;
+  background-color: aquamarine;
+  border: 1px solid orange;
 }
-h1 {
-	display: flex;
-	align-items: center;
+.head {
+  display: flex;
+  justify-content: center;
+  border: 1px solid orange;
+  padding: 1ch;
+}
+nav {
+  display: flex;
+  border: 1px solid orange;
+  align-items: center;
+}
+aside {
+  display: flex;
+  border: 1px solid orange;
+  align-items: center;
 }
