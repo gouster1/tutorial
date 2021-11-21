@@ -1,22 +1,48 @@
-.container {
-  display: block;
-  height: 100vh;
-  background-color: aquamarine;
-  border: 1px solid orange;
+body {
+	margin: 0px;
+	/* 바디 화면 전체 채우기 */
+	background-color: aquamarine;
 }
-.head {
-  display: flex;
-  justify-content: center;
-  border: 1px solid orange;
-  padding: 1ch;
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15vh;
+	background-color: aqua;
+	border: 1px solid;
 }
-nav {
-  display: flex;
-  border: 1px solid orange;
-  align-items: center;
+
+.nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+	height: 5vh;
+	background-color: aqua;
+	border: 1px solid;
 }
-aside {
-  display: flex;
-  border: 1px solid orange;
-  align-items: center;
+/* 내부 아이템 꽉 채우기 */
+.nav button {
+	width: 5em;
+}
+
+.main {
+	display: flex;
+	background-color: white;
+	padding: 10px;
+	border: 1px solid;
+}
+
+.aside {
+	display: flex;
+	margin-right: 10px;
+	background-color: aqua;
+	border: 1px solid;
+}
+
+/* 맨 아래로 보내기 */
+.footer {
+	display: flex;
+	background-color: aqua;
+	border: 1px solid;
 }
