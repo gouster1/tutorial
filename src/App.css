@@ -1,48 +1,35 @@
-body {
-	margin: 0px;
-	/* 바디 화면 전체 채우기 */
-	background-color: aquamarine;
+* {
+	box-sizing: border-box;
+	margin: 0%;
 }
-
+.container {
+	background-color: antiquewhite;
+}
 .header {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 15vh;
-	background-color: aqua;
-	border: 1px solid;
+	background-color: aquamarine;
+	padding: 5%;
+}
+.header_nav {
+	background-color: black;
+}
+.header_nav button {
 }
 
-.nav {
+.under_header {
 	display: flex;
-	justify-content: space-evenly;
-	align-items: stretch;
-	height: 5vh;
-	background-color: aqua;
-	border: 1px solid;
 }
-/* 내부 아이템 꽉 채우기 */
-.nav button {
-	width: 5em;
+.side_space {
+	width: 100px;
 }
-
-.main {
-	display: flex;
-	background-color: white;
-	padding: 10px;
-	border: 1px solid;
-}
-
 .aside {
-	display: flex;
-	margin-right: 10px;
-	background-color: aqua;
-	border: 1px solid;
+	flex: 1 0 100px;
+	background-color: gray;
 }
-
-/* 맨 아래로 보내기 */
+.main {
+	flex: 4;
+	background-color: white;
+}
 .footer {
-	display: flex;
-	background-color: aqua;
-	border: 1px solid;
+	background-color: aquamarine;
+	padding: 5%;
 }
