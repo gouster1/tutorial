@@ -12,10 +12,8 @@ function App() {
 			<Nav />
 
 			<div className="under_header">
-				<div className="side_space"></div>
 				<Aside />
 				<Main />
-				<div className="side_space"></div>
 			</div>
 
 			<Footer />
