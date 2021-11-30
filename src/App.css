@@ -5,31 +5,10 @@
 .container {
 	background-color: antiquewhite;
 }
-.header {
-	background-color: aquamarine;
-	padding: 5%;
-}
-.header_nav {
-	background-color: black;
-}
-.header_nav button {
-}
 
 .under_header {
 	display: flex;
 }
 .side_space {
 	width: 100px;
-}
-.aside {
-	flex: 1 0 100px;
-	background-color: gray;
-}
-.main {
-	flex: 4;
-	background-color: white;
-}
-.footer {
-	background-color: aquamarine;
-	padding: 5%;
 }
