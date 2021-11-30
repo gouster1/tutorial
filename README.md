@@ -21,3 +21,9 @@ Markdown Preview
 - atomic design
   - [Effective Atomic Design | kciter.so](https://kciter.so/posts/effective-atomic-design)
   - [아토믹디자인 for React. 리액트의 재사용가능한 컴포넌트를 위한 아키텍쳐 | by walter | Medium](https://medium.com/@inthewalter/atomic-design-for-react-514660f93ba)
+
+#### 그 외
+
+- [git flow](https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/)
+- [sem ver](https://blog.sonim1.com/243)
+- [Udacity Style](https://da-nyee.github.io/posts/git-git-commit-message-convention/)

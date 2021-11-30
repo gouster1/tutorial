@@ -1,15 +1,22 @@
 import React from "react";
 import "./App.css";
-
+import Header from "./components/organisms/header/header";
+import Nav from "./components/organisms/nav/nav";
+import Aside from "./components/organisms/aside/aside";
+import Main from "./components/organisms/main/main";
+import Footer from "./components/organisms/footer/footer";
 function App() {
 	return (
 		<div className="container">
-			<h1>TEST</h1>
-			<ul>
-				<li>테스트1</li>
-				<li>테스트2</li>
-				<li>테스트3</li>
-			</ul>
+			<Header />
+			<Nav />
+
+			<div className="under_header">
+				<Aside />
+				<Main />
+			</div>
+
+			<Footer />
 		</div>
 	);
 }
