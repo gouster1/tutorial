@@ -1,22 +1,13 @@
-* {
-	box-sizing: border-box;
-	margin: 0%;
-}
 .container {
+	display: flex;
+	flex-flow: column;
 	height: 100vh;
 	background-color: antiquewhite;
 }
 
-/* 
-under_header height가 
-부모 height와 같아
-header footer를 합치면
-페이지 사이즈가 
-html height보다 큼
-calc()로? viewport로?
-*/
 .under_header {
 	display: flex;
+	flex-flow: row;
 	height: 100vh;
 }
 .side_space {
